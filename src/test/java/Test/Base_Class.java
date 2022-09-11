@@ -11,7 +11,7 @@ public class Base_Class {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\visha\\Downloads\\chromedriver_win32\\chromedriver.exe");
 	    driver=new ChromeDriver();
 	    driver.get("https://kite.zerodha.com/");
-		system.out.println("Vishal");
+		System.out.println("Vishal");
 	    //maximize
 	    driver.manage().window().maximize();
 	    //implicitly wait
